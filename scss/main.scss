@@ -1,0 +1,16 @@
+@import "base";
+@import "header";
+@import "main-section";
+@font-face {
+    font-family: numeric;
+    src: url("../fonts/BHoma.ttf");
+}
+
+.num {
+    font-family: numeric;
+}
+
+body {
+    background-color: $color-gray;
+    overflow-x: hidden;
+}
